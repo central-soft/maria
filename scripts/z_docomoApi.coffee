@@ -15,7 +15,7 @@ module.exports = (robot) ->
   cmds = []
   for help in robot.helpCommands()
     cmd = help.split(' ')[1]
-    cmds.push cmd if cmds.indexOf(cmd) is -1
+    cmds.push(cmd) if cmds.indexOf(cmd) is -1
 
   # 定数
   ERR_MSG = '雑談対話APIの呼出に失敗しました。'
