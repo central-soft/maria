@@ -2,7 +2,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: murmuring-springs-2266 
-test:
-  override:
-    - exit 0
+      appname: polar-dusk-66960 
