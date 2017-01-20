@@ -3,6 +3,3 @@ deployment:
     branch: master
     heroku:
       appname: polar-dusk-66960 
-test:
-  override:
-    - exit 0
