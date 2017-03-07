@@ -1,5 +1,5 @@
-demo = require '../scripts/demo_module'
+# demo = require '../scripts/demo_module'
 
-module.exports = (robot) ->
-  robot.respond /demo (.*)/i, (msg) ->
-    msg.send demo.demoFunc(msg.match[1])
+# module.exports = (robot) ->
+#   robot.respond /demo (.*)/i, (msg) ->
+#     msg.send demo.demoFunc(msg.match[1])
