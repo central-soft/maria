@@ -1,7 +1,5 @@
 exports.demoFunc = (str) -> 
-	if str == 'test'
-		return 'test'
-	else　if str == 'test2'
-		return 'test2'
+	if str == 'cs'
+		return 'CENTRAL SOFT'
 	else
-		return 'aa'
+		return 'hello world!!'
