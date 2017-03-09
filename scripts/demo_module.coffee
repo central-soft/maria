@@ -1,5 +1,5 @@
 exports.demoFunc = (str) -> 
 	if str == 'cs'
-		return 'CENTRAL SOFT DEVOPS TEAM'
+		return 'CENTRAL SOFT'
 	else
 		return 'hello world!!'
