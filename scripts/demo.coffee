@@ -1,4 +1,4 @@
-demo = require './demo_module'
+demo = require('./demo_module')
 
 module.exports = (robot) ->
   robot.respond /demo (.*)/i, (msg) ->
